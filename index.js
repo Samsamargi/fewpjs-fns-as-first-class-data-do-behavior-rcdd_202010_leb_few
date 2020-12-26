@@ -28,4 +28,3 @@ function greet(string) {
 function displayMessage(string) {
   document.getElementById("greeting").innerText = string ;
 }
-}
