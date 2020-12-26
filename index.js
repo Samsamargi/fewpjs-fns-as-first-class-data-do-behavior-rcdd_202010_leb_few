@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(string) {
-  let hour = parseInt(string,10)
+  let hour = parseInt(string,10);
   if(hour < 12){
     return "Good Morning";
   }
@@ -20,7 +20,7 @@ function greet(string) {
     return "Good Afternoon";
   }
   else if(hour > 17){
-    return "Good Evening"
+    return "Good Evening";
   }
 }
 /* Write your implementation of displayMessage() */
